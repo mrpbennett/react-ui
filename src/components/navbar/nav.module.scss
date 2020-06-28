@@ -1,0 +1,11 @@
+.navItem {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+    background-color: aquamarine;
+
+    .navLeft {
+        margin-right: auto;
+    }
+}
