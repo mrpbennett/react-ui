@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Navbar from './components/navbar/nav';
+import LoginForm from './components/login-form/loginform';
 
 function App() {
     return (
@@ -13,7 +14,7 @@ function App() {
             </div>
 
             <div className='fullscreen'>
-                <img src={logo} className='App-logo' alt='logo' />
+                <LoginForm />
             </div>
 
             <div className='fullscreen'>
