@@ -1,29 +1,51 @@
 .loginFormContainer {
     width: 100%;
-    max-width: 24rem;
+    max-width: 28rem;
 
     .loginForm {
-        padding-left: 2rem;
-        padding-top: 1.5rem;
-        padding-right: 2rem;
-        padding-bottom: 2rem;
+        padding: 1.5rem 2rem;
         margin-bottom: 1rem;
         background-color: #ffffff;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
             0 2px 4px -1px rgba(0, 0, 0, 0.06);
         border-radius: 0.375rem;
-
-        .loginFormUsername {
-            display: block;
-            color: #4a5568;
-            font-weight: bold;
-            margin-bottom: 0.5rem;
-
-            label {
-            }
-
-            input {
-            }
-        }
     }
+
+    .loginFormUsername {
+        margin-bottom: 1.5rem;
+        display: block;
+        color: #4a5568;
+        font-weight: bold;
+    }
+
+    .loginFormPassword {
+        margin-bottom: 1.5rem;
+        display: block;
+        color: #4a5568;
+        font-weight: bold;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    input {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+            0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        border: 0.12rem rgba(0, 0, 0, 0.1) solid;
+        border-radius: 0.25rem;
+        appearance: none;
+        box-sizing: border-box;
+    }
+}
+
+.loginFormBottom {
+    font-size: 0.75rem;
+    text-align: center;
+    color: #a0aec0;
 }

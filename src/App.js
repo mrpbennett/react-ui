@@ -4,13 +4,22 @@ import './App.css';
 
 import Navbar from './components/navbar/nav';
 import LoginForm from './components/login-form/loginform';
+import Button from './components/button/button';
 
 function App() {
     return (
         <div className='App'>
             <Navbar />
             <div className='fullscreen'>
-                <img src={logo} className='App-logo' alt='logo' />
+                <Button
+                    button
+                    onClick={() => console.log('button was clicked')}
+                    buttonStyle='btn-primary-solid'
+                    buttonSize='btn-md'
+                    buttonText='btn-normal'
+                    borderRadius='btn-radius-lg'>
+                    Click Me
+                </Button>
             </div>
 
             <div className='fullscreen'>
