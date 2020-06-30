@@ -16,12 +16,13 @@ function App() {
                     onClick={() => console.log('button was clicked')}
                     buttonStyle='btn-primary-solid'
                     buttonSize='btn-md'
-                    buttonText='btn-normal'
+                    buttonText='btn-upper'
                     borderRadius='btn-radius-lg'>
-                    Click Me
+                    Click Me I'm A Btn
                 </Button>
             </div>
 
+            <span className='flex items-stretch'>1.</span>
             <div className='fullscreen'>
                 <LoginForm />
             </div>

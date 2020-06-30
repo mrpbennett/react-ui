@@ -29,9 +29,9 @@ const LoginForm = (props) => {
                         onClick={() => console.log('button was clicked')}
                         buttonStyle='btn-primary-solid'
                         buttonSize='btn-md'
-                        buttonText='btn-normal'
+                        buttonText='btn-upper'
                         buttonWidth='btn-wide'
-                        borderRadius='btn-radius-base'>
+                        borderRadius='btn-radius-md'>
                         Sign In
                     </Button>
                 </div>

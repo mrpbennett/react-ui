@@ -15,10 +15,10 @@ $full: 9999px;
 
 .btn {
     font-family: sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     cursor: pointer;
     transition: transform 0.3s ease;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.05em;
 }
 
 .btn:hover {
@@ -80,12 +80,12 @@ $full: 9999px;
 
 // Button Sizing
 .btn-sm {
-    padding: 0.25rem 0.75rem;
-    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.75rem;
 }
 .btn-md {
-    padding: 0.75rem 1.25rem;
-    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 0.875rem;
 }
 
 // Button Radius
