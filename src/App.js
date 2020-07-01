@@ -1,16 +1,23 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 import Navbar from './components/navbar/nav';
+import Intro from './components/intro/intro';
 import LoginForm from './components/login-form/loginform';
 import Button from './components/button/button';
 import Nav from './components/nav/nav';
+import Card from './components/card/card';
+import StarRating from './components/star-rating/starRating';
 
 function App() {
     return (
         <div className='App'>
             <Navbar />
+
+            <div className='fullscreen'>
+                <Intro />
+            </div>
+
             <div className='fullscreen'>
                 <Button
                     button
@@ -23,7 +30,6 @@ function App() {
                 </Button>
             </div>
 
-            <span className='flex items-stretch'>1.</span>
             <div className='fullscreen'>
                 <LoginForm />
             </div>
@@ -33,11 +39,11 @@ function App() {
             </div>
 
             <div className='fullscreen'>
-                <img src={logo} className='App-logo' alt='logo' />
+                <StarRating />
             </div>
 
             <div className='fullscreen'>
-                <img src={logo} className='App-logo' alt='logo' />
+                <Card />
             </div>
         </div>
     );
