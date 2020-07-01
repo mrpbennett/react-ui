@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 import Navbar from './components/navbar/nav';
 import LoginForm from './components/login-form/loginform';
 import Button from './components/button/button';
+import Nav from './components/nav/nav';
 
 function App() {
     return (
@@ -28,7 +29,7 @@ function App() {
             </div>
 
             <div className='fullscreen'>
-                <img src={logo} className='App-logo' alt='logo' />
+                <Nav />
             </div>
 
             <div className='fullscreen'>
