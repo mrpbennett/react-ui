@@ -17,6 +17,26 @@ const data = [
         subtitle: 'Team social',
         time: '13:30 AM',
     },
+    {
+        title: 'Friday Lunch Beers',
+        subtitle: 'Team social',
+        time: '13:30 AM',
+    },
+    {
+        title: 'Friday Lunch Beers',
+        subtitle: 'Team social',
+        time: '13:30 AM',
+    },
+    {
+        title: 'Friday Lunch Beers',
+        subtitle: 'Team social',
+        time: '13:30 AM',
+    },
+    {
+        title: 'Friday Lunch Beers',
+        subtitle: 'Team social',
+        time: '13:30 AM',
+    },
 ];
 
 const Calendar = () => {
@@ -42,6 +62,20 @@ const Calendar = () => {
                         <span className='date'>17</span>
                         <span className='day'>apr</span>
                     </div>
+                </div>
+
+                <div className='calendarEvents'>
+                    {data.map((entry) => (
+                        <div className='event'>
+                            <div className='eventHeader'>
+                                <p>{entry.title}</p>
+                                <span>...</span>
+                            </div>
+
+                            <span className='subtitle'>{entry.subtitle}</span>
+                            <span className='time'>{entry.time}</span>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
