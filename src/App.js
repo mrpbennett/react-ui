@@ -6,8 +6,9 @@ import Intro from './components/intro/intro';
 import LoginForm from './components/login-form/loginform';
 import Button from './components/button/button';
 import Nav from './components/nav/nav';
-import Card from './components/card/card';
 import StarRating from './components/star-rating/starRating';
+import Card from './components/card/card';
+import Calendar from './components/calendar/calendar';
 
 function App() {
     return (
@@ -44,6 +45,10 @@ function App() {
 
             <div className='fullscreen'>
                 <Card />
+            </div>
+
+            <div className='fullscreen'>
+                <Calendar />
             </div>
         </div>
     );
