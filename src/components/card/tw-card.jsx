@@ -6,14 +6,14 @@ const Card = () => {
     const cardData = [
         {
             imgUrl:
-                'https://images.unsplash.com/photo-1479502806991-251c94be6b15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
+                'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
             beds: 3,
             baths: 2,
-            title: 'Modern apartment in city center',
+            title: 'Beautiful desert pool complex',
             price: 390000,
-            formattedPrice: '£3,900.00',
-            reviewCount: 69,
-            rating: 3,
+            formattedPrice: '£2,550.00',
+            reviewCount: 2000,
+            rating: 5,
         },
     ];
 

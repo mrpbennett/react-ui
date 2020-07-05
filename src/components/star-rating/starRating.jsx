@@ -8,7 +8,7 @@ const StarRating = (props) => {
 
     return (
         <div className='stars'>
-            <div>
+            <div className='starsInner'>
                 {[...Array(5)].map((star, i) => {
                     const ratingValue = i + 1;
 
